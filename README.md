@@ -48,6 +48,18 @@ int main(){
         }
 
  // Check letters A-Z
+         for (int j = 0; j < 26; j++)
+        {
+   if (currentLetter == letters[j])
+    {
+    // Display individual letter and Morse code
+   cout << currentLetter << ": " << morse[j] << endl;
+
+ // Add to full Morse message
+fullMessage += morse[j] + "   ";
+        }
+        }
+    }
 
 
 return 0;}
