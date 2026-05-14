@@ -59,7 +59,12 @@ int main(){
 fullMessage += morse[j] + "   ";
         }
         }
-    }
+    } // Display full Morse code message
+    cout << endl;
+    cout << "Full Morse Code Message:";
+    cout << fullMessage << endl;
+ return 0;
+}
 
 
 return 0;}
